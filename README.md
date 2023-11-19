@@ -9,7 +9,7 @@ Links
 1) Hospedagem:
 2) Youtube:
 
-Instruções para execução da aplicação: 
+Instruções para execução da aplicação
 
 1) Acessar o link de hospedagem acima ou baixar o projeto.
 
