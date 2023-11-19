@@ -13,4 +13,4 @@ Instruções para execução da aplicação:
 
 1) Acessar o link de hospedagem acima ou baixar o projeto.
 
-2) Na tela de login colocar nos campos Usuário:    - Senha: 
+2) Na tela de login colocar nos campos Usuário: admin   - Senha: 1234
