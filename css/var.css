@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&family=Roboto:wght@300&display=swap');
+
+:root{
+    --main-bg: url(/img/bg.jpg) no-repeat top center fixed;
+    --button-color: blue;
+    --main-boxShadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    --login-bg:rgba(243, 239, 239, 0.842);
+    --main-font: 'Roboto', sans-serif;
+    --primary-color:#999A9A;
+    --secundary-color:#555454;
+    --pomodoro-boxShadow: 0px 0px 10px 6px rgba(255, 255, 255, 0.2);
+    --pomodoro-bg:#091921f5;
+    --default-color: white;
+    --default-dark:black;
+    --study-buttonColor:#5e1010;
+    --done-color:#51f059;
+    --login-buttonHover:rgba(0, 0, 255, 0.801);
+    --pomodoro-btnHover:linear-gradient(to bottom, rgb(81, 81, 82) 5%, #666768 100%);
+    --default-greyColor:#ccc;
+}

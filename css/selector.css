@@ -1,0 +1,124 @@
+body {
+    background: var(--main-bg);
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    font-family: var(--main-font);
+  }
+  .container{
+    display: flex;
+    place-self: center;
+    justify-content: center;
+    align-items: center;
+    width: 1050px;
+    height: 820px;
+    margin: 0 auto;
+    
+  }
+  button{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    outline: 0;
+    border: none;
+    box-shadow: var(--main-boxShadow);
+  }
+  p{
+    margin-top: -40px;
+    font-weight: bolder;
+    font-size: 30px;
+  }
+  #study{
+    background: url(/img/Checklist-2.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+  }
+  #study:hover{
+    width: 500px;
+    height: 600px;
+    opacity: 1;
+  }
+  #pomodoro{
+    background: url(/img/clock.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+  }
+
+  #pomodoro:hover{
+    opacity: 0.9;
+    width: 500px;
+    height: 600px;
+  }
+  @media(max-width: 1050px){
+    .container{
+      width: 950px;
+      height: 620px;
+      margin-top: 120px;
+    }
+    button{
+      width: 450px;
+      height: 500px;
+    }
+    #pomodoro:hover{
+      opacity: 0.9;
+      width: 450px;
+      height: 550px;
+    }
+    #study:hover{
+      width: 450px;
+      height: 550px;
+      opacity: 1;
+    }
+  }
+  @media(max-width: 900px){
+    .container{
+      width: 850px;
+      height: 520px;
+      margin-top: 150px;
+    }
+    button{
+      width: 350px;
+      height: 400px;
+    }
+    #pomodoro:hover{
+      opacity: 0.9;
+      width: 400px;
+      height: 500px;
+    }
+    #study:hover{
+      width: 400px;
+      height: 500px;
+      opacity: 1;
+    }
+  }
+  @media(max-width: 800px){
+    .container{
+      margin: 0 auto;
+      flex-direction: column;
+      height: 100vh;
+      width: 500px;
+    }
+    button{
+      width: 350px;
+      height: 300px;
+    }
+    #study{
+      margin-bottom: 60px;
+    }
+    #pomodoro:hover{
+      opacity: 0.9;
+      width: 380px;
+      height: 350px;
+    }
+    #study:hover{
+      width: 380px;
+      height: 350px;
+      opacity: 1;
+    }
+  }

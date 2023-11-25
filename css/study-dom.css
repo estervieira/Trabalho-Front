@@ -1,22 +1,14 @@
-/* Geral */
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: Verdana;
-  color: #333;
-}
-
 body {
-  background-image: url("../img/verm.avif");
+  background: var(--main-bg);
+  background-size: cover;
   background-position: center;
   background-size: cover;
+  font-family: var(--main-font);
 }
-
 button {
-  background-color: #fdfdfd;
-  color: #5e1010;
-  border: 2px solid #5e1010;
+  background-color: var(--default-color);
+  color: var(--study-buttonColor);
+  border: 2px solid var(--study-buttonColor);
   padding: 0.3rem 0.6rem;
   font-size: 1rem;
   cursor: pointer;
@@ -25,18 +17,23 @@ button {
   align-items: center;
   transition: 0.4s;
 }
+a{
+  text-decoration: none;
+  color: var(--default-dark);
+  font-size: 16px;
+}
 
 button:hover {
-  background-color: #5e1010;
+  background-color: var(--study-buttonColor);
 }
 
 button:hover > i {
-  color: #fff;
+  color: var(--default-color);
 }
 
 button i {
   pointer-events: none;
-  color: #5e1010;
+  color: var(--study-buttonColor);
   font-weight: bold;
 }
 
@@ -49,32 +46,32 @@ select {
   display: none;
 }
 
-/* Todo Header */
 .todo-container {
-  max-width: 450px;
+  max-width: 550px;
   margin: 3rem auto 0;
-  background-color: #fdfdfd;
+  background-color: var(--default-color);
   padding: 1.5rem;
   border-radius: 15px;
+  box-shadow: var(--main-boxShadow);
 }
 
 .todo-container header {
   text-align: center;
   padding: 0 1rem 1rem;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid var(--default-greyColor);
 }
 
-/* Todo Form */
 #todo-form,
 #edit-form {
   padding: 1rem;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid var(--default-greyColor);;
 }
 
 #todo-form p,
 #edit-form p {
   margin-bottom: 0.5rem;
   font-weight: bold;
+  color: var(--default-dark);
 }
 
 .form-control {
@@ -87,13 +84,12 @@ select {
 
 #cancel-edit-btn {
   margin-top: 1rem;
-  color: #444;
 }
 
-/* Todo Toolbar */
+
 #toolbar {
   padding: 1rem;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid var(--default-greyColor);
   display: flex;
 }
 
@@ -102,7 +98,7 @@ select {
 }
 
 #search {
-  border-right: 1px solid #ddd;
+  border-right: 1px solid var(--default-greyColor);
   padding-right: 1rem;
   margin-right: 1rem;
   width: 65%;
@@ -129,13 +125,13 @@ select {
   flex: 1;
 }
 
-/* Todo List */
+
 .todo {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 1rem 1rem;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid var(--default-greyColor);
   transition: 0.3s;
 }
 
@@ -149,11 +145,11 @@ select {
 }
 
 .done {
-  background: #5e1010
+  background: var(--done-color);
 }
 
 .done h3 {
-  color: #fff;
   text-decoration: line-through;
   font-style: italic;
 }
+

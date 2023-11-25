@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro</title>
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style-pomodoro.css">
+    <link rel="stylesheet" href="/css/var.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <script src="/js/pomodoro.js" defer></script>
+</head>
+<body>
+    <div class="pomodoro">
+        
+        <div id="container">
+            <a href="/html/study-dom.html"> StudyDom</a>
+            <p id="work" class="label">Tempo:</p>
+
+            <p id="break" class="label">Pausa:</p>
+
+            <p id="cycles" class="label">Ciclos:</p>
+
+            <div id="work-timer" class="timer">
+                <p id="w_minutes">25</p><p class="semicolon">:</p><p id="w_seconds">00</p>
+            </div>
+
+            <p id="counter" class="timer">0</p>
+
+            <div id="break-timer" class="timer">
+                <p id="b_minutes">05</p><p class="semicolon">:</p><p id="b_seconds">00</p>
+            </div>
+
+            <button id="start" class="btn">Começar</button>
+
+            <button id="stop" class="btn">Pausar</button>
+
+            <button id="reset" class="btn">Resetar</button>
+           
+        </div>
+    </div>
+</body>
+</html>
