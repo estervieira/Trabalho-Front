@@ -41,6 +41,7 @@ body {
     width: 500px;
     height: 600px;
     opacity: 1;
+    transition: 1s;
   }
   #pomodoro{
     background: url(/img/clock.jpg) ;
@@ -54,6 +55,7 @@ body {
     opacity: 0.9;
     width: 500px;
     height: 600px;
+    transition: 1s;
   }
   @media(max-width: 1050px){
     .container{
