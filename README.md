@@ -25,7 +25,7 @@ Dentro das opções do método, o aluno pode iniciar, pausar e reiniciar o cron�
 
 Links
 
-1) Hospedagem: https://beautiful-puffpuff-ee9568.netlify.app/
+1) Hospedagem: https://6563ed9f49c9d75ac157256f--amazing-sherbet-4a740e.netlify.app/
 2) Youtube: https://www.youtube.com/watch?v=dLTnQW6Pwhc
 
 
