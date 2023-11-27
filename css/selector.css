@@ -101,22 +101,23 @@ body {
   }
   @media(max-width: 800px){
     .container{
-      margin: 0 auto;
       flex-direction: column;
-      height: 100vh;
-      width: 500px;
+      height: 100%;
+      width: 100%;
     }
     button{
       width: 350px;
       height: 300px;
+      margin-top: -60px;
     }
     #study{
-      margin-bottom: 60px;
+      margin-bottom: 100px;
     }
     #pomodoro:hover{
       opacity: 0.9;
       width: 380px;
       height: 350px;
+
     }
     #study:hover{
       width: 380px;
